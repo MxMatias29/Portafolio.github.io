@@ -1,0 +1,36 @@
+header{
+    background: url(../imagenes/Fondo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 85vh;
+    opacity: 1.0;
+}
+.imagen-grande {
+    width: 80%;
+    height: 100%;
+}
+.texto{
+    font-size: 14px;
+    margin:10 auto;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+h2{
+    text-align: center;
+}
+h3{
+    font-size: 28px;
+}
+p{
+    font-size: 14px;
+}
+.imagen{
+     width: 50%;
+     height: 50%;
+
+}
+.card-body{
+    text-align: center;
+}

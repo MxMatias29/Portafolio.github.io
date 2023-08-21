@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+#img-logo{
+    margin-left: 20px;
+}
+
+nav{
+    background: #F8F9FA;
+    font-family: 'Bebas Neue', sans-serif;
+}
+li{
+    margin-right: 15px;
+}
+.btn{
+    display: flex;
+    justify-content: end;
+}
+
+li :hover{
+    border-bottom: 3px solid ;
+    border-top: 3px solid black;
+}
+.curriculum{
+    margin-right: 5px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.curriculum:hover{
+    border-bottom: 3px solid ;
+    border-top: 3px solid black;
+}
+
+.bi{
+    padding-left: 5px;
+}
+
+.img-fondo {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    max-width: 100%;
+  }
+
+.image-container img {
+    width: 30%;
+    display: block;
+    margin-left: 100px;
+  }
+
+.text-fondo {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    margin-left: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    
+}
+.text-fondo h1,
+  .text-fondo h3 {
+    margin: 0; /* Quitar márgenes predeterminados */
+  }
+h1{
+    margin: auto;
+    margin-top: 24px;
+    color: cornflowerblue;
+}
+.text-fondo h3 {
+    margin-top: 10px; /* Agregar un pequeño margen entre el h1 y el h3 */
+  }
+@media (max-width: 768px) {
+    .container-fluid {
+      text-align: left;
+      align-items: center;
+    }
+
+    .img-fondo {
+      flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .image-container img {
+      width: 70%;
+      margin: auto;
+    }
+
+    .text-fondo {
+      position: static;
+      transform: none;
+      margin-top: 10px;
+    }
+    h1{
+       margin: auto;
+        color: cornflowerblue;
+    }
+    .text-fondo h3 {
+        margin-top: 5px; /* Agregar un pequeño margen entre el h1 y el h3 */
+    }
+}
+
+.cn-sobre{
+    margin-top: 50px;
+    margin-left: 20px;
+    text-align: justify;
+}
+.cn-sobre h3{
+    margin: auto;
+    font-family: 'Bebas Neue', sans-serif;
+    color: cornflowerblue;
+}
+.cn-sobre p{
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    
+}
+
+#sobre{
+   border-radius: 10px;
+}
+
+#portafolio {
+  color: cornflowerblue; 
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.col-md-3{
+  margin-top: 30px;
+}
+
+.border{
+  border-radius: 10px;
+}
+
+#contactame h3{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: cornflowerblue;
+  font-family: 'Bevas Neue', sans-serif;
+  font-weight: bold;
+}
+
+#contactame p{
+  margin-top: 5px;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+}
